@@ -18,4 +18,9 @@ public class AdressePostale {
         System.out.println(numeroRue + " " + libelleRue + " " + codePostal + " " + ville);
     }
 
+    @Override
+    public String toString() {
+        return numeroRue + " " + libelleRue + " " + codePostal + " " + ville;
+    }
+
 }
